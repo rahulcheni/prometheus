@@ -1,18 +1,18 @@
-dockprom
+Prometheus
 ========
 
 A monitoring solution for Docker hosts and containers with [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [cAdvisor](https://github.com/google/cadvisor),
 [NodeExporter](https://github.com/prometheus/node_exporter) and alerting with [AlertManager](https://github.com/prometheus/alertmanager).
 
-***If you're looking for the Docker Swarm version please go to [stefanprodan/swarmprom](https://github.com/stefanprodan/swarmprom)***
+***If you're looking for the Docker Swarm version please go to [rahulcheni/prometheus](https://github.com/rahulcheni/prometheus)***
 
 ## Install
 
 Clone this repository on your Docker host, cd into dockprom directory and run compose up:
 
 ```bash
-git clone https://github.com/stefanprodan/dockprom
-cd dockprom
+git clone https://github.com/rahulcheni/prometheus
+cd prometheus
 
 ADMIN_USER=admin ADMIN_PASSWORD=admin docker-compose up -d
 ```
@@ -62,7 +62,7 @@ Grafana is preconfigured with dashboards and Prometheus as the default data sour
 
 ***Docker Host Dashboard***
 
-![Host](https://raw.githubusercontent.com/stefanprodan/dockprom/master/screens/Grafana_Docker_Host.png)
+![Host](https://raw.githubusercontent.com/rahulcheni/prometheus/master/screens/Grafana_Docker_Host.png)
 
 The Docker Host Dashboard shows key metrics for monitoring the resource usage of your server:
 
