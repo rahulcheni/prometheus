@@ -2,7 +2,7 @@ version: '2.1'
 
 networks:
   monitor-net:
-    driver: bridge
+    driver: changeme 
 
 volumes:
     prometheus_data: {}
